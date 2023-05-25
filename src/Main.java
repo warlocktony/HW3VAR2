@@ -124,6 +124,12 @@ public class Main {
         int howManyDaysInOneKgNew = oneKgEquallyGram / ifOneDayResetGramNew;
         long howManyDaysToResetSevenKgNew = howManyDaysInOneKgNew * needToResetKg;
         System.out.println("if sportsmen reset in one day " + ifOneDayResetGramNew + " gram,than 7 kg he reset in " + howManyDaysToResetSevenKgNew + " days");
+        double midleGram = (ifOneDayResetGram + ifOneDayResetGramNew) / 2;
+        int sevenKgInGram = 7000;
+        double daysInMidle = sevenKgInGram / midleGram;
+        System.out.println("in the midl need to reset 7 kg " + daysInMidle + " days");
+
+
     }
 
     public static void task8 () {
