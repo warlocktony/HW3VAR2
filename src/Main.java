@@ -150,8 +150,10 @@ public class Main {
         long  yearCashDenisUp = cashForYearDenisNew - cashForYearDenisOld;
         long  yearCashKristinaUp = cashForYearKristinaNew - cashForYearKristinaOld;
         System.out.println("Masha now gets " + cashOfMashaInMonthRubNew + " rub.Annual revenue increased by " + yearCashMashaUp + " Rub");
-        System.out.println("Denis now gets " + cashOfDenisInMonthRubNew + " rub.Annual revenue increased by " + yearCashDenisUp + " Rub");
+        System.out.println("Deniss now gets " + cashOfDenisInMonthRubNew + " rub.Annual revenue increased by " + yearCashDenisUp + " Rub");
         System.out.println("Kristina now gets " + cashOfKristinaInMonthRubNew + " rub.Annual revenue increased by " + yearCashKristinaUp + " Rub");
+
+        
 
 
 
